@@ -2,8 +2,9 @@ from behave import given, when, then
 
 @given('El usuario está en el formulario para sumar')
 def step_impl(context):
-    br = context.browser
-    assert br.current_url.endswith('/suma/')
+	br = context.browser
+	br.get(context.base_url + '/suma/')
+	assert br.current_url.endswith('/suma/')
 
 
 @when('Ingresa dos sumandos y clickea el boton enviar')
