@@ -1,2 +1,2 @@
 # DJANGO-BDD
-Tutorial de como hacer django BDD
+Tutorial de como hacer  BDD con Django
