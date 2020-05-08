@@ -17,4 +17,3 @@ def after_all(context):
 def before_feature(context, feature):
 	# Code to be executed each time a feature is going to be tested
 	pass
-
